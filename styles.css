@@ -1,0 +1,165 @@
+/* Reset default margin and padding */
+body,
+h1,
+h2,
+h3,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #d1bcbc;
+    color: #333;
+}
+
+/* Header styling with background image */
+header {
+    background-image: url(images/alexander-grey-O2u6gA2esAI-unsplash.jpg); /* Replace 'path/to/your/image.jpg' with your image URL */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.486);
+    padding: 20px;
+}
+
+
+.logo {
+    width: 200px; /* Adjust the width of your logo */
+    height: 200px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: space-between;
+}
+
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fc1010;
+    font-weight: bold;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+    
+    nav ul li a:hover {
+        color: #33fff5; /* Change color on hover */
+}
+
+/* Main content styling */
+main {
+    padding: 10px 50px 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+/* Style for the photo container */
+.photo-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.photo-container img {
+    width: calc(33.33% - 10px); /* Adjust size and spacing as needed */
+    border-radius: 5px;
+}
+
+
+/* h1 style */
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-family: 'Arial Black', sans-serif;
+    color: #333;
+}
+
+/* h2 style */
+h2 {
+    font-size: 2.5em;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    color: #555;
+}
+
+/* h3 style */
+h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+    text-align: left;
+    font-style: italic;
+    color: #5f2828;
+}
+
+
+p {
+    margin-bottom: x-small;
+    line-height: 1.6;
+    padding: 10px 50px 20px;
+    text-align: left;
+
+}
+
+/* ... (your previous CSS code) ... */
+
+/* Style for Donate and Contact buttons */
+section#donate button,
+section#contact button {
+    padding: 12px 24px;
+    background-color: #35a59a;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+section#donate button:hover,
+section#contact button:hover {
+    background-color: #36718b;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 8px #00000033;
+}
+
+
+/* Footer styling */
+/* Style for the sponsorship section in the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #260775;
+    color: #fff;
+}
+
+.sponsorship {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sponsor-logo img {
+    width: 120px; /* Adjust size as needed */
+    height: auto;
+}
