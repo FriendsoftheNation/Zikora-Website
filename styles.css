@@ -120,7 +120,7 @@ p {
 /* ... (your previous CSS code) ... */
 
 /* Style for Donate and Contact buttons */
-section#donate button,
+section# button,
 section#contact button {
     padding: 12px 24px;
     background-color: #35a59a;
