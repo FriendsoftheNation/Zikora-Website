@@ -25,9 +25,31 @@
         </nav>
     </header>
 
-  <main> 
-         <section= 
-  </main>
+ <main>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Have questions, suggestions, or want to partner with us? We'd love to hear from you! Our team at Zikora STEM Society is dedicated to fostering connections and expanding opportunities in STEM education.</p>
+            
+            <!-- Contact Form -->
+            <form action="submit_contact.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="subject">Subject:</label>
+                <input type="text" id="subject" name="subject" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    
 <footer>
     <div class="sponsorship">
         <p>&copy; 2024 Zikora STEM Society. All Rights Reserved.</p>
