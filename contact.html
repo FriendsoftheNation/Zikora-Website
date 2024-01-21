@@ -3,18 +3,109 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Zikora STEM Society - Blog</title>
+    <title>Zikora STEM Society - Contact Us</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        header {
+            background-color: #007BFF;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #ffc107;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        form {
+            max-width: 500px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 5px;
+            font-size: 1em;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
 </head>
 
 <body>
     <!-- Navigation -->
     <header>
+        <img src="images/2020 (2).png" alt="Your Non-Profit Logo">
         <nav>
-            <img src="images/2020 (2).png" alt="Your Non-Profit Logo" class="logo">
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">About</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="materials.html">Materials for Learning</a></li>
                 <li><a href="donate.html">Donate</a></li>
@@ -25,11 +116,12 @@
         </nav>
     </header>
 
- <main>
-        <section id="contact">
+    <!-- Main Content Section for Contact Us -->
+    <main>
+        <section>
             <h2>Contact Us</h2>
             <p>Have questions, suggestions, or want to partner with us? We'd love to hear from you! Our team at Zikora STEM Society is dedicated to fostering connections and expanding opportunities in STEM education.</p>
-            
+
             <!-- Contact Form -->
             <form action="submit_contact.php" method="post">
                 <label for="name">Name:</label>
@@ -49,18 +141,15 @@
         </section>
     </main>
 
-    
-<footer>
-    <div class="sponsorship">
-        <p>&copy; 2024 Zikora STEM Society. All Rights Reserved.</p>
-      
-        
-        <div class="sponsor-logo">
-             <img src="images/vodafone.png" alt="Sponsored by Vodafone">
-            <img src="images/OIP-removebg-preview.png" alt="Sponsored by Coca-Cola">
+    <!-- Footer Section -->
+    <footer>
+        <div class="sponsorship">
+            <p>&copy; 2024 Zikora STEM Society</p>
+            <div class="sponsor-logo">
+                <img src="images/vodafone.png" alt="Sponsored by Vodafone">
+            </div>
         </div>
-    </div>
-</footer>
+    </footer>
 
 </body>
 
