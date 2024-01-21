@@ -143,6 +143,40 @@ section#contact button:hover {
     box-shadow: 0 6px 8px #00000033;
 }
 
+/* Style for the contact form */
+section#contact form {
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #35a59a;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background-color: #36718b;
+    transform: translateY(-2px);
+}
 
 /* Footer styling */
 /* Style for the sponsorship section in the footer */
