@@ -189,6 +189,23 @@ button:hover {
     transform: translateY(-2px);
 }
 
+/* Add this to your existing CSS file or update it accordingly */
+
+.team-member {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.team-member-info {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.team-member-photo img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 /* Footer styling */
 /* Style for the sponsorship section in the footer */
